@@ -1,0 +1,30 @@
+# Byte-code files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Virtual environment
+# add the name of your virtual environment directory here (commonly venv or .venv)
+venv/
+.venv/
+
+# IDE-specific files
+.idea/          # For PyCharm/IntelliJ
+.vscode/        # For VS Code (if not using global ignore)
+*.swp           # For Vim editors
+
+# Operating system files
+.DS_Store       # For macOS
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Log and temporary files
+*.log
+tmp/
+
+# Sensitive data (e.g., API keys, passwords)
+.env            # Environment variables file
+secrets.toml
